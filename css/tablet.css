@@ -1,1 +1,11 @@
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 1.3fr 2fr 1.3fr;
+    }
+    .titleRed {
+        font-size: 2rem;
+    }
+    footer {
+        font-size: 1.4rem;
+    }
+}

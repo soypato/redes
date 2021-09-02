@@ -16,14 +16,81 @@ html {
 }
 
 @media (min-width: 200px) {
+    body {
+        background: linear-gradient(90deg, rgba(66, 39, 90, 1) 0%, rgba(218, 142, 207, 1) 0%, rgba(61, 76, 213, 1) 52%, rgba(90, 110, 166, 1) 98%);
+        color: #fff;
+    }
+    a {
+        text-decoration: none;
+    }
     main {
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: .5fr 2fr .5fr;
     }
     .disGrid {
         grid-area: 1 / 2;
     }
-    .disGrid>img {
-        max-width: 20rem;
+    .presentation>img {
+        max-width: 19rem;
+        display: block;
+        margin: auto;
+        border-radius: 10rem;
+        margin-top: 2rem;
+    }
+    h1 {
+        margin: 2rem 0 1rem 0;
+        text-align: center;
+        font-size: 5rem;
+    }
+    .description {
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 0 0 1rem 0;
+    }
+    .linkPortfolio {
+        padding: .3rem;
+        border-radius: 1rem;
+        background-color: #fff;
+    }
+    .linkPortfolio a {
+        color: #000;
+    }
+    .linkPortfolio p {
+        text-align: center;
+        font-size: 1.3rem;
+        transform: translateY(.3rem);
+    }
+    h2 {
+        padding: 2rem 0 1rem 0;
+        font-size: 2.5rem;
+    }
+    .titleRed {
+        font-size: 1.5rem;
+        border: .2rem solid #fff;
+        border-radius: 1rem;
+        padding: 1rem;
+        color: #fff;
+    }
+    .titleRed:hover {
+        background-color: #fff;
+        transition: .150s;
+        color: #000;
+    }
+    .titleRed a {
+        color: #fff;
+    }
+    .titleRed p {
+        color: #fff;
+    }
+    .titleRed p:hover {
+        color: #000;
+    }
+    .titleRed a:hover {
+        color: #000;
+    }
+    footer {
+        margin: 2rem 0;
+        text-align: center;
+        font-size: 1.3rem;
     }
 }
