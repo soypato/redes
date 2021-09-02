@@ -17,7 +17,7 @@ html {
 
 @media (min-width: 200px) {
     body {
-        background: linear-gradient(90deg, rgba(66, 39, 90, 1) 0%, rgba(218, 142, 207, 1) 0%, rgba(61, 76, 213, 1) 52%, rgba(90, 110, 166, 1) 98%);
+        background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
         color: #fff;
     }
     a {
@@ -50,10 +50,10 @@ html {
     .linkPortfolio {
         padding: .3rem;
         border-radius: 1rem;
-        background-color: #fff;
+        background-color: #F57F83;
     }
     .linkPortfolio a {
-        color: #000;
+        color: #fff;
     }
     .linkPortfolio p {
         text-align: center;
@@ -70,6 +70,7 @@ html {
         border-radius: 1rem;
         padding: 1rem;
         color: #fff;
+        text-align: center;
     }
     .titleRed:hover {
         background-color: #fff;
