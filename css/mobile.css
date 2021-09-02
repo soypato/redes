@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    --first-color: ;
+    --accent-color: ;
+    --third-color: ;
+}
+
+@media (min-width: 200px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+    .disGrid {
+        grid-area: 1 / 2;
+    }
+    .disGrid>img {
+        max-width: 20rem;
+    }
+}
