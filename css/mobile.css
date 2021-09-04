@@ -50,7 +50,11 @@ html {
     .linkPortfolio {
         padding: .3rem;
         border-radius: 1rem;
-        background-color: #F57F83;
+        background-color: #9557a5;
+    }
+    .linkPortfolio:hover {
+        background-color: #5786a5;
+        transition: .5s;
     }
     .linkPortfolio a {
         color: #fff;
