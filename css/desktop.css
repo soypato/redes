@@ -1,5 +1,5 @@
 @media (min-width: 1024px) {
-    main {
-        grid-template-columns: 2fr 2fr 2fr;
-    }
+  main {
+    grid-template-columns: 2fr 3fr 2fr;
+  }
 }

@@ -1,102 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: 'Rubik', sans-serif;
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
 }
 
 :root {
-    --first-color: ;
-    --accent-color: ;
-    --third-color: ;
+  --first-color: ;
+  --accent-color: ;
+  --third-color: ;
 }
 
 @media (min-width: 200px) {
-    body {
-        background-color: #FF3CAC;
-        background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-        color: #fff;
-    }
-    a {
-        text-decoration: none;
-    }
-    main {
-        display: grid;
-        grid-template-columns: .5fr 2fr .5fr;
-    }
-    .disGrid {
-        grid-area: 1 / 2;
-    }
-    .presentation>img {
-        max-width: 19rem;
-        display: block;
-        margin: auto;
-        border-radius: 10rem;
-        margin-top: 2rem;
-    }
-    h1 {
-        margin: 2rem 0 1rem 0;
-        text-align: center;
-        font-size: 5rem;
-    }
-    .description {
-        text-align: center;
-        font-size: 1.3rem;
-        padding: 0 0 1rem 0;
-    }
-    .linkPortfolio {
-        padding: .3rem;
-        border-radius: 1rem;
-        background-color: #9557a5;
-    }
-    .linkPortfolio:hover {
-        background-color: #5786a5;
-        transition: .5s;
-    }
-    .linkPortfolio a {
-        color: #fff;
-    }
-    .linkPortfolio p {
-        text-align: center;
-        font-size: 1.3rem;
-        transform: translateY(.3rem);
-    }
-    h2 {
-        padding: 2rem 0 1rem 0;
-        font-size: 2.5rem;
-    }
-    .titleRed {
-        font-size: 1.5rem;
-        border: .2rem solid #fff;
-        border-radius: 1rem;
-        padding: 1rem;
-        color: #fff;
-        text-align: center;
-    }
-    .titleRed:hover {
-        background-color: #fff;
-        transition: .150s;
-        color: #000;
-    }
-    .titleRed a {
-        color: #fff;
-    }
-    .titleRed p {
-        color: #fff;
-    }
-    .titleRed p:hover {
-        color: #000;
-    }
-    .titleRed a:hover {
-        color: #000;
-    }
-    footer {
-        margin: 2rem 0;
-        text-align: center;
-        font-size: 1.3rem;
-    }
+  body {
+    background-color: #ff3cac;
+    background-image: linear-gradient(
+      225deg,
+      #ff3cac 0%,
+      #784ba0 50%,
+      #2b86c5 100%
+    );
+    color: #fff;
+  }
+  a {
+    text-decoration: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+  }
+  .disGrid {
+    grid-area: 1 / 2;
+  }
+  .presentation > img {
+    max-width: 19rem;
+    display: block;
+    margin: auto;
+    border-radius: 10rem;
+    margin-top: 2rem;
+  }
+  h1 {
+    margin: 2rem 0 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+  .description,
+  .descriptionParagraph {
+    font-size: 1.3em;
+    margin: 2rem 0;
+  }
+  .descriptionParagraph {
+    text-align: left;
+  }
+  h2 {
+    padding: 2rem 0 1rem 0;
+    font-size: 2.2rem;
+  }
+  .titleRed {
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-color: #00000077;
+    color: #fff;
+    text-align: center;
+  }
+  .titleRed:hover {
+    background-color: #fff;
+    transition: 0.1s;
+    color: #000;
+  }
+  .titleRed a {
+    color: #fff;
+  }
+  .titleRed p {
+    color: #fff;
+  }
+  .titleRed p:hover {
+    color: #000;
+  }
+  .titleRed a:hover {
+    color: #000;
+  }
+  footer {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.3rem;
+  }
 }
