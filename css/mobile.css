@@ -17,13 +17,7 @@ html {
 
 @media (min-width: 200px) {
   body {
-    background-color: #ff3cac;
-    background-image: linear-gradient(
-      225deg,
-      #ff3cac 0%,
-      #784ba0 50%,
-      #2b86c5 100%
-    );
+    background-color: #222222;
     color: #fff;
   }
   a {
@@ -31,43 +25,43 @@ html {
   }
   main {
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
+    z-index: 20;
   }
   .disGrid {
     grid-area: 1 / 2;
   }
   .presentation > img {
-    max-width: 19rem;
+    max-width: 14rem;
     display: block;
     margin: auto;
     border-radius: 10rem;
     margin-top: 2rem;
   }
   h1 {
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0 .4rem 0;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
   }
-  .description,
-  .descriptionParagraph {
+  .description {
     font-size: 1.3em;
-    margin: 2rem 0;
+    text-align: center;
   }
-  .descriptionParagraph {
-    text-align: left;
-  }
+  
   h2 {
     padding: 2rem 0 1rem 0;
     font-size: 2.2rem;
+    text-align: center;
+
   }
   .titleRed {
     font-size: 1.5rem;
+    text-align: center;
     border-radius: 0.3rem;
     padding: 1rem;
     background-color: #00000077;
     color: #fff;
-    text-align: center;
   }
   .titleRed:hover {
     background-color: #fff;
