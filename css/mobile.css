@@ -6,7 +6,6 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Rubik", sans-serif;
 }
 
 :root {
@@ -17,8 +16,9 @@ html {
 
 @media (min-width: 200px) {
   body {
+    font-family: 'Karla', sans-serif;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgb(45, 42, 42) 0%, rgb(32, 53, 25) 50%, rgba(45, 42, 42) 100%);    color: #fff;
+    background: linear-gradient(90deg, #1d1f06, #2e2219, #1d1f06);    color: #fff;
   }
   a {
     text-decoration: none;
@@ -31,22 +31,27 @@ html {
   .disGrid {
     grid-area: 1 / 2;
   }
+  .presentation{
+    margin-top: 3rem;
+  }
   .presentation > img {
-    max-width: 14rem;
+    max-width: 9.5rem;
     display: block;
     margin: auto;
     border-radius: 10rem;
     margin-top: 2rem;
   }
   h1 {
-    margin: 2rem 0 .4rem 0;
+    margin: 1rem 0 .4rem 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #fff;
   }
   .description {
     font-size: 1.3em;
     text-align: center;
+    color: rgb(175, 173, 173);
+    margin-bottom: 2rem;
   }
   
   h2 {
@@ -56,11 +61,12 @@ html {
 
   }
   .titleRed {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     border-radius: 0.3rem;
-    padding: 1rem;
-    background-color: #00000077;
+    padding: 1.4rem 2rem;
+    margin: 1rem 0;
+    background-color: #000000a5;
     color: #fff;
   }
   .titleRed:hover {
