@@ -1,5 +1,5 @@
 # /redes
-Página estilo Linktr.ee válida para redes sociales. Para embellecer la ruta se utiliza una redirección 301 desde bit.ly/soypato para darle estética en las plataformas digitales.
+Linktr.ee style page valid for social networks. To beautify the route, a 301 redirect from bit.ly/soypato is used to give it aesthetics on digital platforms.
 
 
 ![image](https://user-images.githubusercontent.com/77248407/161679224-9a8792a1-5cdd-4b07-a90e-aedd50c9cbcc.png)
