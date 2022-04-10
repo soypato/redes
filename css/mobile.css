@@ -8,17 +8,17 @@ html {
   font-size: 62.5%;
 }
 
-:root {
+/* :root {
   --first-color: ;
   --accent-color: ;
   --third-color: ;
-}
+} */
 
 @media (min-width: 200px) {
   body {
     font-family: 'Karla', sans-serif;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, #1d1f06, #2e2219, #1d1f06);    color: #fff;
+    background-color: #293190;
+    color: #fff;
   }
   a {
     text-decoration: none;
@@ -40,6 +40,8 @@ html {
     margin: auto;
     border-radius: 10rem;
     margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+
   }
   h1 {
     margin: 1rem 0 .4rem 0;
@@ -68,6 +70,7 @@ html {
     margin: 1rem 0;
     background-color: #000000a5;
     color: #fff;
+    
   }
   .titleRed:hover {
     background-color: #fff;
