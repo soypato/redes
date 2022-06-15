@@ -24,8 +24,6 @@ html {
     text-decoration: none;
   }
   main {
-    display: grid;
-    grid-template-columns: 0.2fr 2fr 0.2fr;
     z-index: 20;
   }
   .disGrid {
