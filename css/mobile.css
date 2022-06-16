@@ -89,7 +89,9 @@ html {
   }
   .gradient-redes{
     display: grid;
+    grid-gap: 1rem;
     justify-content: space-around;
+    margin-bottom: 2rem;
   }
   footer {
     margin: 2rem 0;
