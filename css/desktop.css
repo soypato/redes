@@ -1,5 +1,11 @@
 @media (min-width: 1024px) {
-  main {
-    grid-template-columns: 1.7fr 3fr 1.7fr;
-  }
+    section {
+         grid-template-columns: .8fr 2fr .8fr;
+    }
+    .linkDescription{
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    .results span, .results p{
+        font-size: 1.8rem;
+    }
 }
