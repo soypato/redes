@@ -3,6 +3,7 @@ En este repositorio encontrarás un clon de Linktree, un recopilador de links co
 Además, usamos bit.ly para acortar la URL y a partir de una redirección 301, llevarnos a la página del deploy.
 
 Deploy → bit.ly/soypato
+
 Algunas ideas partieron de un fork de LittleLink, que tiene el mismo propósito → https://github.com/sethcottle/littlelink
 
 Con 💙 SoyPato desde Argentina.
