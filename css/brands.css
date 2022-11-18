@@ -1,141 +1,98 @@
-.button,
-button {
+.button,button {
   text-align: center;
   width: 30rem;
   font-size: 1.8rem;
   line-height: 48px;
   border-radius: 8px;
-  cursor: pointer;
+  cursor: pointer
 }
-button:hover,
-.button:focus {
+
+.button:focus,button:hover {
   color: #333;
   border-color: #888;
-  outline: 0;
+  outline: 0
 }
+
 .button.button-primary {
   color: #fff;
-  filter: brightness(90%);
-}
-.button.button-primary:hover,
-.button.button-primary:focus {
-  color: #fff;
-  filter: brightness(90%);
+  filter: brightness(90%)
 }
 
-/* Brand Icons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button.button-primary:focus,.button.button-primary:hover {
+  color: #fff;
+  filter: brightness(90%)
+}
 
 .icon {
-  padding: 0px 8px 3.5px 0px;
+  padding: 0 8px 3.5px 0;
   vertical-align: middle;
   width: 20px;
-  height: 20px;
+  height: 20px
 }
 
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Default (this is great for your own brand color!) */
-.button.button-default {
-  color: #ffffff;
-  background-color: #3742bc;
-}
-.button.button-default:hover,
-.button.button-default:focus {
-  filter: brightness(90%);
+.button.button-default:focus,.button.button-default:hover,.button.button-discord:focus,.button.button-discord:hover,.button.button-github:focus,.button.button-github:hover,.button.button-instagram:focus,.button.button-instagram:hover,.button.button-linkedin:focus,.button.button-linkedin:hover,.button.button-paypal:focus,.button.button-paypal:hover,.button.button-tiktok:focus,.button.button-tiktok:hover,.button.button-twit:focus,.button.button-twit:hover,.button.button-twitch:focus,.button.button-twitch:hover,.button.button-web:focus,.button.button-web:hover,.button.button-yt:focus,.button.button-yt:hover,.mercadopago-button:focus,.mercadopago-button:hover {
+  filter: brightness(90%)
 }
 
-.mercadopago-button{
+.mercadopago-button {
   color: #000;
-  background-color: #009EE3;
+  background-color: #009ee3
 }
 
-.mercadopago-button:hover,
-.mercadopago-button:focus {
-  filter: brightness(90%);
+.mercadopago-logo {
+  width: 3.1rem
 }
 
-.mercadopago-logo{
-  width: 3.1rem;
-}
-
-.button.button-paypal:hover, .button.button-paypal:focus {
-    filter: brightness(90%);
-}
 .button.button-paypal {
-    color: #ffffff;
-    background-color: #003087;
+  color: #fff;
+  background-color: #003087
 }
 
-/* Discord */
 .button.button-discord {
-  color: #ffffff;
-  background-color: #5865f2;
-}
-.button.button-discord:hover,
-.button.button-discord:focus {
-  filter: brightness(90%);
+  color: #fff;
+  background-color: #5865f2
 }
 
-/* Instagram */
+.button.button-linkedin {
+  color: #fff;
+  background-color: #272e92
+}
+
 .button.button-instagram {
-  color: #ffffff;
-  background-image: linear-gradient(-135deg, #b900b4, #f50000);
-}
-.button.button-instagram:hover,
-.button.button-instagram:focus {
-  filter: brightness(90%);
+  color: #fff;
+  background-image: linear-gradient(-135deg,#b900b4,#f50000)
 }
 
-/* TikTok */
 .button.button-tiktok {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-tiktok:hover,
-.button.button-tiktok:focus {
-  filter: brightness(90%);
+  color: #fff;
+  background-color: #000
 }
 
-/* Twitch */
 .button.button-twitch {
-  color: #ffffff;
-  background-color: #9146ff;
-}
-.button.button-twitch:hover,
-.button.button-twitch:focus {
-  filter: brightness(90%);
+  color: #fff;
+  background-color: #9146ff
 }
 
-/* Twitter */
 .button.button-twit {
-  color: #ffffff;
-  background-color: #1da1f2;
-}
-.button.button-twit:hover,
-.button.button-twit:focus {
-  filter: brightness(90%);
+  color: #fff;
+  background-color: #3951d8
 }
 
-/* Website */
 .button.button-web {
-  color: #ffffff;
-  background-color: #3742bc;
-}
-.button-web > img{
-  width: 2.4rem;
-}
-.button.button-web:hover,
-.button.button-web:focus {
-  filter: brightness(90%);
+  color: #fff;
+  background-color: #3742bc
 }
 
-/* YouTube */
-.button.button-yt {
-  color: #ffffff;
-  background-color: #000000;
+.button-web>img {
+  width: 2.4rem
 }
-.button.button-yt:hover,
-.button.button-yt:focus {
-  filter: brightness(90%);
+
+.button.button-yt {
+  color: #fff;
+  background-color: #000
+}
+
+.button.button-github {
+  background-color: #000a41;
+  color: #fff
 }
