@@ -98,8 +98,8 @@
 }
 
 .button.button-kick {
-  background-color:#216009;
-  color: #fff
+  background-color:#53fc18;
+  color:  #000;
 }
 .button.button-kick:hover {
   filter: brightness(90%);
