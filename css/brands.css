@@ -97,9 +97,11 @@
   color: #fff
 }
 
-.button.button-mastodon {
-  background-color: #07457c;
+.button.button-kick {
+  background-color:#216009;
   color: #fff
 }
-
+.button.button-kick:hover {
+  filter: brightness(90%);
+}
 
