@@ -1,6 +1,9 @@
 # /redes
-Linktr.ee style page valid for social networks. To beautify the route, a 301 redirect from bit.ly/soypato is used to give it aesthetics on digital platforms.
+En este repositorio encontrarás un clon de Linktree, un recopilador de links con un bonito estilo para poder insertar en la bio de las redes sociales, mayoritariamente en Instagram.
+Además, usamos bit.ly para acortar la URL y a partir de una redirección 301, llevarnos a la página del deploy.
 
+Deploy → https://bit.ly/soypato | https://soypato.github.io/redes/
 
-![image](https://user-images.githubusercontent.com/77248407/161679224-9a8792a1-5cdd-4b07-a90e-aedd50c9cbcc.png)
-![image](https://user-images.githubusercontent.com/77248407/161679357-fd131be5-c5b6-440d-a607-a9f05d201dae.png)
+Algunas ideas partieron de un fork de LittleLink, que tiene el mismo propósito → https://github.com/sethcottle/littlelink
+
+Con 💙 SoyPato desde Argentina.
